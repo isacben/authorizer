@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(5000);
+app.listen(443);
 
 app.get('/', (req, res) => {
     res.json({"msg":"Server up..."})
