@@ -7,8 +7,8 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 app.listen(PORT);
 
-app.get('/', (req, res) => {
-    res.json({"msg":"Server up..."})
+app.get('/status', (req, res) => {
+    res.json({"status":"Running..."})
 })
 
 app.post('/auth', (req, res) => {
