@@ -79,6 +79,6 @@ For more information, check Rapyd documentation:
 
 https://docs.rapyd.net/build-with-rapyd/docs/authorizing-a-card-transaction-remotely
 
-~
-Isaac Benitez
+~  
+Isaac Benitez  
 Sales Engineer @ Rapyd
