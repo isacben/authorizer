@@ -1,3 +1,15 @@
+/**
+ * Authorizer
+ *
+ * Remote authorization server for Rapyd card issuing platform.
+ *
+ * @file   This files defines the rest api endpoints.
+ * @author Isaac Benitez.
+ * @version 0.0.1
+ * 
+ * @requires express
+ */
+
 const express = require('express');
 
 const app = express();
@@ -8,7 +20,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT);
 
 app.get('/status', (req, res) => {
-    res.json({"status":"Running..."})
+    res.json({"status": "Running..."});
 })
 
 app.post('/auth', (req, res) => {
